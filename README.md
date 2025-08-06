@@ -16,12 +16,12 @@ MicroMart follows a microservices architecture pattern with the following compon
                 │               │                │
         ┌───────▼──────┐ ┌──────▼────────┐ ┌─────▼───────┐
         │ Auth Service │ │Product Service│ │Order Service│
-        │ (Port: 8081) │ │ (Port: 8082)  │ │(Port: 8083) │
+        │ (Port: 9000) │ │ (Port: 9001)  │ │(Port: 9002) │
         └──────────────┘ └───────────────┘ └─────────────┘
                 │               │                │
         ┌───────▼──────┐        │          ┌─────▼──────┐
         │Email Service │        │          │   Cart     │
-        │ (Port: 8084) │        │          │  Service   │
+        │ (Port: 9004) │        │          │  Service   │
         └──────────────┘        │          └────────────┘
                                 │
                         ┌───────▼───────┐
