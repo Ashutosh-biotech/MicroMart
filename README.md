@@ -182,7 +182,7 @@ micromart/
 ## 🔧 Configuration
 
 ### Environment Variables
-Visit `application.properties or .yml` file in each service of resource directory.
+Visit `application.properties or .yml` file of resource directory in each service.
 - Check the details and fill the data where asked.
 
 ### Database
