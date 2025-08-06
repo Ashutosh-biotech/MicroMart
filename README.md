@@ -250,8 +250,8 @@ cd <service-directory>
 ## 👨‍💻 Author
 
 **Ashutosh Kumar**
-- GitHub: [@ashutosh-biotech]
-- LinkedIn: [Your LinkedIn Profile]
+- GitHub: [@ashutosh-biotech](https://github.com/Ashutosh-biotech)
+- LinkedIn: [Ashutosh Kumar](https://www.linkedin.com/in/ashutoshbiotech/)
 - Email: ashutoshbiotech2020@gmail.com
 
 ---
