@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: "auth-service"
+  data:
+    mongodb:
+      uri: "<Your MongoDB Collection Url>"
+      database: "<Collection Name>"
+
+server:
+  port: 9000
+
+app:
+  jwt:
+    secret: "myJwtSecretKeyThatIsLongEnoughForSecurity123456"
+    expiration: 86400000 # 24 hours in milliseconds
+    refresh-expiration: 604800000 # 7 days in milliseconds
+    verification-expiration: 86400000 # 24 hours in milliseconds
+  encryption:
+    key: "MyCustomEncryptionKeyOf32Bytes32" # Must be 32 bytes for AES-256
+
+micromart:
+  internal:
+    secret: "MM_INT_2025_7f9a8b3c5d2e1f4g6h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0"
+
+logging:
+  level:
+    org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver: ERROR
